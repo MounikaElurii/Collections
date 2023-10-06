@@ -1,0 +1,17 @@
+import java.util.List;
+import java.util.ArrayList;
+
+public class Lists {
+	public static void main(String[]args) {
+		
+		List values = new ArrayList();
+		values.add(5);
+		values.add(3);
+		values.add(3);
+		values.add(7);
+		values.add(8);
+		values.add(1);
+		System.out.println(values);
+		
+	}
+}
